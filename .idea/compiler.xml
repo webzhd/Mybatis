@@ -8,7 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JDBC" />
         <module name="JDBC (1)" />
+        <module name="Mybais-xml-crud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JDBC" target="1.5" />
+      <module name="Mybits" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
