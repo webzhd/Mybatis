@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zd.Dao.UserMapper">
+    <select id="getUser" resultType="com.zd.com.zd.Pojo.User">
+        select * from users where id = #{id};
+    </select>
+
+    <insert id="setUser" parameterType="com.zd.com.zd.Pojo.User">
+        insert into users (id, NAME, password) values (#{id}, #{NAME}, #{password});
+    </insert>
+
+    <insert id="updateUser" parameterType="com.zd.com.zd.Pojo.User">
+        update users set NAME = #{NAME }, password = #{password} where id = #{id};
+    </insert>
+
+    <delete id="delUser">
+        delete from users where id=#{id};
+    </delete>
+</mapper>

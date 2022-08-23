@@ -5,12 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Mybits</artifactId>
+    <artifactId>Mybatis</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>JDBC</module>
-        <module>Mybais-xml-crud</module>
+        <module>crud-xml</module>
+        <module>crud-anno</module>
+        <module>one-and-more</module>
     </modules>
 
     <dependencies>

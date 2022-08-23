@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>JDBC</artifactId>
+    <artifactId>crud-anno</artifactId>
 
 
 </project>

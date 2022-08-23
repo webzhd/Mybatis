@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JDBC" />
+        <module name="Mybatis-xml-crud" />
+        <module name="one-and-more" />
         <module name="JDBC (1)" />
-        <module name="Mybais-xml-crud" />
+        <module name="JDBC" />
+        <module name="crud-xml" />
+        <module name="crud-anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JDBC" target="1.5" />
-      <module name="Mybits" target="1.5" />
+      <module name="Mybais-xml-crud" target="1.5" />
+      <module name="Mybatis-ano-crud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
