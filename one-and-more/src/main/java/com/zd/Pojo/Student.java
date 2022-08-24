@@ -3,7 +3,14 @@ package com.zd.Pojo;
 public class Student {
     private int sid;
     private String name;
+    private Teacher teacher;
     private int tid;
+
+    public Student(int sid, String name, Teacher teacher) {
+        this.sid = sid;
+        this.name = name;
+        this.teacher = teacher;
+    }
 
     public Student(int sid, String name, int tid) {
         this.sid = sid;
@@ -27,6 +34,14 @@ public class Student {
         this.name = name;
     }
 
+    public Teacher getTeacher() {
+        return teacher;
+    }
+
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+    }
+
     public int getTid() {
         return tid;
     }
@@ -40,7 +55,7 @@ public class Student {
         return "Student{" +
                 "sid=" + sid +
                 ", name='" + name + '\'' +
-                ", tid=" + tid +
+                ", teacher=" + teacher +
                 '}';
     }
 }

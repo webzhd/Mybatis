@@ -1,5 +1,9 @@
 package com.zd.Dao;
 
-public interface StudentMapper {
+import com.zd.Pojo.Student;
 
+import java.util.ArrayList;
+
+public interface StudentMapper {
+    ArrayList<Student> getStudent();
 }
