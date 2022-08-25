@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mybatis-xml-crud" />
-        <module name="one-and-more" />
         <module name="JDBC (1)" />
         <module name="JDBC" />
+        <module name="more-and-one" />
         <module name="crud-xml" />
         <module name="crud-anno" />
       </profile>

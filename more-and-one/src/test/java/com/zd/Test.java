@@ -20,4 +20,17 @@ public class Test {
 
         session.close();
     }
+
+
+    @org.junit.Test
+    public void getStudent2() {
+        SqlSession session = MybatisUtils.getSession();
+        StudentMapper mapper = session.getMapper(StudentMapper.class);
+        ArrayList<Student> studentArrayList = mapper.getStudent2();
+        for (Student student : studentArrayList) {
+            System.out.println(student);
+        }
+
+        session.close();
+    }
 }

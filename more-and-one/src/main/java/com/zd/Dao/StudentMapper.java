@@ -6,4 +6,5 @@ import java.util.ArrayList;
 
 public interface StudentMapper {
     ArrayList<Student> getStudent();
+    ArrayList<Student> getStudent2();
 }
